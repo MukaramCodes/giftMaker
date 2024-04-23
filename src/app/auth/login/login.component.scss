@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 .form-container {
     display: flex;
 
@@ -7,12 +9,51 @@
     width: 100vh;
     background-repeat: no-repeat;
 }
-.logo-image{
-    background-image: url(/assets/images/Frame.png);
+.logo{
+.logo-image img{
+    height: 5vh;
+}
+.card-text1{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    padding-inline-start: 0.4em;
+}
+.card-text2{
+    font-family: "Inter", sans-serif;
+  font-weight: 800;
 
+}
+}
+.line{
+    height: 0.5vh;
+    //  padding: 0.1em; 
+    background-color: #7E0FC6;
+    width: 200%;
+}
+.login-text{
+    .text1{
+        
+        font-family: "Inter", sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+    }
+    .text2{
+        
+        font-family: "Inter", sans-serif;
+        font-weight: 200;
+        font-size: 14px;
+        color: #808D9E;
+    }
+    }
 }
 .form{
     display: flex;
     flex-direction: column;
 }
+.button{
+    background: linear-gradient(90.81deg, #AF4FEF 2.14%, #7E0FC6 97.95%);
 }
